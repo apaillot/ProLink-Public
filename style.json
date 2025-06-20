@@ -1,0 +1,60 @@
+{
+ "QMainWindow":[
+  {
+   "tittle":"Aquaread tool",
+   "icon":":/icons_default/grid.svg",
+   "transluscentBg": true
+  }
+ ],
+ "QCustomSlideMenu": [{
+  "name": "left_menu_main_cont",
+  "defaultSize": [{
+   "width": 180,
+   "height": "auto"
+  }],
+  "collapsedSize": [{
+   "width": 0,
+   "height": "parent"
+  }],
+  "expandedSize": [{
+   "width": 180,
+   "height": "parent"
+  }],
+  "toggleButton": [{
+   "buttonName": "toggle_button"
+  }],
+  "menuTransitionAnimation": [{
+   "animationDuration": 1000,
+   "animationEasingCurve": "OutBack"
+  }]
+ }],
+ "QPushButtonGroup": [{
+  "Buttons": [
+   "dashboard_btn",
+   "liveview_btn",
+   "data_btn",
+   "test_btn"
+  ],
+  "Style":[{
+   "Active": "background-color: #3E4072;border-left: 3px solid rgb(255,255,255);",
+   "NotActive": ""
+  }]
+ }],
+ "QCustomQStackedWidget":[
+  {
+  "name":"stackedWidget",
+   "navigation":[
+    {
+     "navigationButtons":[
+      {
+       "dashboard_btn": "page",
+       "liveview_btn": "page_2",
+       "data_btn": "page_3",
+       "test_btn": "page_4"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

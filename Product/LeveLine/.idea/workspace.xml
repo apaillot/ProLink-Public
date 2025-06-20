@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="849b0ca4-70f5-4b8a-b51c-3fb9d69d6b9d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/TConfigParser.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TProduct.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TSerialQt.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Sonde/TConfigParser.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Sonde/TProduct.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Sonde/TSerialQt.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Aquaread.pyproject" beforeDir="false" afterPath="$PROJECT_DIR$/../../Aquaread.pyproject" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Model/MMainWindow.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../Model/MMainWindow.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TConfigParser.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TProduct.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TProduct.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TSerial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TSerialQt.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Version.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Version.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../config.ini" beforeDir="false" afterPath="$PROJECT_DIR$/../../config.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../form.ui" beforeDir="false" afterPath="$PROJECT_DIR$/../../form.ui" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mainwindow.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../mainwindow.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mainwindow_old.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ui_form.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../ui_form.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 1
+}]]></component>
+  <component name="ProjectId" id="2p3puHRNopqNa7L649izkhJjbZC" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/PROJET_AQUAREAD/Qt/PROJET/Aquaread"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-fb887030ada0-aa17d162503b-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-243.21565.199" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="849b0ca4-70f5-4b8a-b51c-3fb9d69d6b9d" name="Changes" comment="" />
+      <created>1732004833653</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1732004833653</updated>
+    </task>
+    <servers />
+  </component>
+</project>

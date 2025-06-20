@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>WStab</class>
+ <widget class="QDialog" name="WStab">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>372</width>
+    <height>172</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Log data period configuration</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">#WStab {
+ background-color:white;
+ border-radius: 5px;
+}
+#label{
+ color: #3E4072;
+ font-weight: 800;
+}
+#buttonBox{
+ background-color: #3E4072;
+}
+#label_Title{
+ color: #8F8F8F;
+ font-weight: 600;
+}
+QLineEdit {
+ background-color:#DFDFDF;
+ border-radius: 3px;
+}
+#pushButton_Confirm,
+#pushButton_Cancel {
+ border: none;
+ border-radius: 8px;
+}
+#pushButton_Confirm {
+ color: white;
+ background-color: #3E4072;
+}
+#pushButton_Confirm:hover {
+ color: white;
+ background-color: #595D89;
+}
+#pushButton_Cancel {
+ background-color: #D8D8D8;
+}
+#pushButton_Cancel:hover {
+ background-color: #ACACAC;
+}</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QLabel" name="label_Title">
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+       <fontweight>DemiBold</fontweight>
+      </font>
+     </property>
+     <property name="text">
+      <string>Stabilization</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="Line" name="line">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QWidget" name="widget" native="true">
+     <layout class="QGridLayout" name="gridLayout">
+      <property name="horizontalSpacing">
+       <number>15</number>
+      </property>
+      <item row="0" column="1">
+       <widget class="QLabel" name="label_2">
+        <property name="text">
+         <string>Please wait until stabilization process end.</string>
+        </property>
+        <property name="wordWrap">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="0">
+       <widget class="QLabel" name="label">
+        <property name="maximumSize">
+         <size>
+          <width>40</width>
+          <height>40</height>
+         </size>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="pixmap">
+         <pixmap resource="../../../ressource.qrc">:/Logo/Dashboard/Sonde info/info-button.svg</pixmap>
+        </property>
+        <property name="scaledContents">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <widget class="QProgressBar" name="progressBar">
+     <property name="value">
+      <number>24</number>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <spacer name="verticalSpacer_2">
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>20</width>
+       <height>1</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item>
+    <widget class="QWidget" name="widget_3" native="true">
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <property name="rightMargin">
+       <number>9</number>
+      </property>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources>
+  <include location="../../../ressource.qrc"/>
+ </resources>
+ <connections/>
+</ui>

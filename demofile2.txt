@@ -1,0 +1,13 @@
+TAB delimited raw text file. Use the TAB key to align the columns in your word processor software.
+
+
+AquaSonde Calibration Certificate
+
+Date: 17/12/2024
+Time: 14:06:14
+Sonde Type: AS-6K/7K/Pro
+Sonde S/N: 210930329
+Sonde S/W Rev: 5.11.1.00
+
+Calibration Record
+Function	Value	Temp	Baro
